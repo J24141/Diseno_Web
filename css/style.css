@@ -2,7 +2,20 @@
     margin: 0;
     padding: 0;
 }
-
+.nav-ea{
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-ea img{
+    height: 50px;
+    width: 50px;
+    border-radius: 3%;
+    color: white;
+    
+}
 .puto{
     color: white;
     background-color: rgb(127, 240, 255);
