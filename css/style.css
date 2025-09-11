@@ -79,4 +79,69 @@
     font-size: 1.1rem;
     padding: 3vh 4vh;
     font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.text button:hover{
+    transform: scale(1.01);
+    transition: .1s;
+}
+
+.info_1{
+    background-image: url("https://media.contentapi.ea.com/content/dam/eacom/subscription/component-assets/common/ea-play-product-conversion-gradient-jpg-2020-xl.jpg.adapt.1920w.jpg");
+    width: 100%;
+    height: 15vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+;
+    display: grid;
+
+    grid-template-columns: 6rem 1fr 1fr 6rem;
+    grid-template-rows: 1fr;
+}
+
+.text-info{
+    grid-row-start: 1;
+    grid-column-start: 2;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 2.4vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-info{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    align-items: center;
+    text-align: center;
+}
+
+.img-info img{
+    height: 3vw;
+    width: 9.5vw;
+    padding-top: 4%;
+}
+
+.img-info button{
+    border: 0; 
+    text-align: center;
+    border-radius: 0.3vh;
+    padding: 2.5vh 8vh;
+    position: absolute;
+    margin-top: 3.5vh;
+    margin-left: 3vh;
+    margin-right: 6vh;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    background-color: #E53935;
+    color: white;
+}
+
+.img-info button:hover{
+    transform: scale(1.05);
+    transition: .1s;
 }
