@@ -7,13 +7,28 @@
     height: 100%;
     width: 100%;
     display: flex;
+    justify-content: flex-end;
 }
 .nav-ea img{
-    height: 25px;
-    width: 25px;
     border-radius: 3%;
     color: white;
-    padding: 10px; 
+}
+
+.user{
+    height: 1.3vw;
+    width: 1.2vw;
+    padding-top: 1.5vh; 
+    padding-right: 3.4vh;
+}
+.ea-logo{
+    height: 2vw;
+    width: 2.5vw;
+    padding: 0.7vh 3vh; 
+}
+.help{
+    height: 2vw;
+    width: auto;
+    padding: 0.7vh 3vh; 
 }
 
 .about{
