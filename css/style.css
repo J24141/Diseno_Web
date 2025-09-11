@@ -30,7 +30,26 @@
     width: auto;
     padding: 0.7vh 3vh; 
 }
-
+.nav-barra{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+}
+.nav-barra .icono-tres-puntos{
+    height: 1.5rem;
+    margin: 12px;
+}
+.nav-barra .ea-logo-2{
+    height: 2rem;
+    margin: 12px;
+}
+.nav-barra a{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
 .about{
     background-image: url("https://media.contentapi.ea.com/content/dam/ea/fc/fc-26/images/2025/07/fc26-eacom-hero-md-7x2-xl.jpg.adapt.crop7x2.1920w.jpg");
     width: 100%;
