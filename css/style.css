@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: electronic arts display, Arial, Helvetica, sans-serif;
+    font-family: electronic arts display, sans-serif;
 }
 .nav-ea{
     background-color: rgb(31, 31, 31);
@@ -71,38 +71,217 @@
 
 
 }
+
+.text2{
+    text-align: center;
+    background-color: rgb(236, 236, 236);
+    font-size: 6vh;
+    padding-top: 4%;
+    padding-bottom: 2.5%;
+}
 .juegos-destacados{
     display: grid;
-    grid-row-start: 2;
-    grid-column-start: 1;
+    grid-template-rows: 0.1fr 0.1fr;
+    grid-template-columns: 12rem 1fr 1fr 1fr 15rem;
+    gap: 1.5rem;
     align-items: center;
     text-align: center;
     background-color: rgb(236, 236, 236);
 }
-.juegos-destacados h3{
-    color: black;
-    font-size: 2rem;
-    text-align: center;
-    font-size: 2.5rem;
-    margin: 50px;
+.juegos-destacados img{
+    height: 22vw;
+    width: auto;
 }
-.juegos-productos{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-
-.juegos-productos img{
-    height: 15vw;
-    width: 15vw;
-    padding: 15px;
-
-}
-.juegos-productos img:hover{
+.juegos-destacados a:hover ::before{
+    background: linear-gradient(to right, rgb(0, 0, 51) 10%, #E53935 90%);
+    opacity: 0.9;
+    transition: .4s;
     cursor: pointer;
-    background-color: dodgerblue;
-
+}
+.juegos-destacados a:hover img{
+    transform: translateY(-5vh);
+    transition: .4s;
+}
+.juegos-destacados p{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    background: rgba(0, 0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: .4s;
+    color: white;
+}
+.juegoX1{
+    background-image: url("https://media.contentapi.ea.com/content/dam/gin/images/2025/08/bf6-box-art-1x1.jpg.adapt.crop1x1.767p.jpg");
+    width: 100%;
+    height: 46vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    position: relative;
+}
+.juegoX1 ::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    opacity: 0.3;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.juegoX1 img{
+    align-items: center;
+    height: 3.5vh;
+    width: auto;
+    padding-top: 45%;
+    position: relative;
+}
+.juegoX2{
+    background-image: url("https://media.contentapi.ea.com/content/dam/gin/images/2025/07/fc-26-key-art.jpg.adapt.crop1x1.767p.jpg");
+    width: 100%;
+    height: 46vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    grid-row-start: 1;
+    grid-column-start: 3;
+    position: relative;
+}
+.juegoX2 ::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    opacity: 0.3;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.juegoX2 img{
+    align-items: center;
+    height: 6vh;
+    width: auto;
+    padding-top: 45%;
+    position: relative;
+}
+.juegoX3{
+    background-image: url("https://media.contentapi.ea.com/content/dam/gin/images/2025/03/f1-25-iconic-gamebox-1x1.jpg.adapt.crop1x1.767p.jpg");
+    width: 100%;
+    height: 46vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    grid-row-start: 1;
+    grid-column-start: 4;
+    position: relative;
+}
+.juegoX3 ::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    opacity: 0.3;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.juegoX3 img{
+    align-items: center;
+    height: 5vh;
+    width: auto;
+    padding-top: 45%;
+    position: relative;
+}
+.juegoX4{
+    background-image: url("https://media.contentapi.ea.com/content/dam/gin/images/2024/12/splitkeyart1x1.jpg.adapt.crop1x1.767p.jpg");
+    width: 100%;
+    height: 46vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    position: relative;
+}
+.juegoX4 ::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    opacity: 0.3;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.juegoX4 img{
+    align-items: center;
+    height: 10vh;
+    width: auto;
+    padding-top: 40%;
+    position: relative;
+}
+.juegoX5{
+    background-image: url("https://media.contentapi.ea.com/content/dam/gin/images/2017/01/the-sims-4-keyart.jpg.adapt.crop1x1.767p.jpg");
+    width: 100%;
+    height: 46vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    grid-row-start: 2;
+    grid-column-start: 3;
+    position: relative;
+}
+.juegoX5 ::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    opacity: 0.3;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0
+}
+.juegoX5 img{
+    align-items: center;
+    height: 8vh;
+    width: auto;
+    padding-top: 45%;
+    position: relative;
+}
+.juegoX6{
+    background-image: url("https://media.contentapi.ea.com/content/dam/gin/images/2019/01/apex-legends-keyart.jpg.adapt.crop1x1.767p.jpg");
+    width: 100%;
+    height: 46vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    grid-row-start: 2;
+    grid-column-start: 4;
+    position: relative;
+}
+.juegoX6 ::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    opacity: 0.3;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.juegoX6 img{
+    align-items: center;
+    height: 13vh;
+    width: auto;
+    padding-top: 38%;
+    position: relative;
 }
 
     
