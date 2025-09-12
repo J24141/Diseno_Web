@@ -481,8 +481,13 @@ footer{
 }
 .link{
     margin-left: 275px;
+    color: black;
 }
-
+.link a:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: #4747f1;
+}
 .equipo-ea a{
     margin-top: 8px;
     margin-bottom: 15px;
@@ -553,11 +558,12 @@ footer{
 .terminos-legales {
     display: flex;
     flex-wrap: wrap;
-
 }
 .terminos-legales a{
     margin: 16px 48px 10px 0px;
+    color: black;
 }
+
 .derechos{
     margin-top: 5px;
 }
