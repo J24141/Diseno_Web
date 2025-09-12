@@ -289,46 +289,128 @@
     padding-top: 38%;
     position: relative;
 }
-
+.latest-text{
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    font-size: 6vh;
+    padding-bottom: 4%;
+}
 .latest-updates{
     display: grid;
     grid-template-columns: 14rem 1fr 1fr 1fr 14rem;
     grid-template-rows: 1fr 1fr;
     gap: 2vh;
+    background-color: rgb(236, 236, 236);
+}
+.latest-updates a:hover{
+    transform: translateY(-2vh);
+    transition: .4s;
+    cursor: pointer;
 }
 .latest-updates img{
     height: 26vh;
     width: auto;
 }
+.EAI{
+    display: flex;
+    position: absolute;
+    justify-content: start;
+    padding-left: 1%;
+    color: blue;
+}
+.date{
+    display: flex;
+    position: absolute;
+    padding-left: 11%;
+    color: black;
+    text-decoration: none;
+}
+.text3{
+    padding-left: 5%;
+    padding-top: 3%;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+.card1 h2{
+    padding-top: 8%;
+    padding-left: 4.5%;
+    color: black;
+    text-decoration: none;
+}
 .card1{
     grid-column-start: 2;
     grid-row-start: 1;
-
+    border: black 1px solid;
+    box-shadow: black 15vh;
+    background-color: white;
+}
+.card2 h2{
+    padding-top: 8%;
+    padding-left: 4.5%;
+    color: black;
+    text-decoration: none;
 }
 .card2{
     grid-column-start: 3;
     grid-row-start: 1;
+    border: black 1px solid;
+    box-shadow: black 15vh;
+    background-color: white;
     
+}
+.card3 h2{
+    padding-top: 8%;
+    padding-left: 4.5%;
+    color: black;
+    text-decoration: none;
 }
 .card3{
     grid-column-start: 4;
     grid-row-start: 1;
-    
+    border: black 1px solid;
+    box-shadow: black 15vh;
+    background-color: white;
+}
+.card4 h2{
+    padding-top: 8%;
+    padding-left: 4.5%;
+    color: black;
+    text-decoration: none;
 }
 .card4{
     grid-column-start: 2;
     grid-row-start: 2;
-    
+    border: black 1px solid;
+    box-shadow: black 15vh;  
+    background-color: white;
+}
+.card5 h2{
+    padding-top: 8%;
+    padding-left: 4.5%;
+    color: black;
+    text-decoration: none;
 }
 .card5{
     grid-column-start: 3;
     grid-row-start: 2;
-    
+    border: black 1px solid;
+    box-shadow: black 15vh;
+    background-color: white;
+}
+.card6 h2{
+    padding-top: 8%;
+    padding-left: 4.5%;
+    color: black;
+    text-decoration: none;
 }
 .card6{
     grid-column-start: 4;
     grid-row-start: 2;
-    
+    border: black 1px solid;
+    box-shadow: black 15vh;
+    background-color: white;
 }
 
 .latest-games{
