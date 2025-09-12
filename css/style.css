@@ -72,10 +72,11 @@
 }
 .juegos-destacados{
     display: grid;
-    grid-row-start: 3;
-    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-column-start: 1;
     align-items: center;
     text-align: center;
+    background-color: rgb(236, 236, 236);
 }
 .juegos-destacados h3{
     color: black;
@@ -90,16 +91,17 @@
     flex-wrap: wrap;
     flex-direction: row;
 }
-.juegos-productos{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
+
 .juegos-productos img{
     height: 15vw;
     width: 15vw;
     padding: 15px;
+
+}
+.juegos-productos img:hover{
+    cursor: pointer;
+    background-color: dodgerblue;
+
 }
 
 
@@ -201,4 +203,29 @@
 .img-info button:hover{
     transform: scale(1.05);
     transition: .1s;
+}
+
+
+
+
+.equipo-ea{
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    flex-direction: row;
+}
+.equipo-ea a{
+    padding-right: 50px;
+}
+.contacto{
+    margin-left: 60px;
+}
+.contacto img{
+    height: 1.5rem;
+    width: auto;
+}
+.contacto h3{
+    margin-top: 24px;
+    margin-bottom: 10px;
 }
