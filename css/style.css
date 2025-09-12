@@ -410,6 +410,12 @@
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 10vh;
     border-radius: 5px;
+
+}
+
+.banner-celeste button:hover{
+    transform: scale(1.05);
+    transition: .1s;
     cursor: pointer;
 }
 
