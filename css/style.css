@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: electronic arts display, sans-serif;
+    text-decoration: none;
 }
 .nav-ea{
     background-color: rgb(31, 31, 31);
@@ -40,13 +41,18 @@
     width: 100%;
     position:fixed;
 }
-.nav-barra .icono-tres-puntos{
+.nav-color a:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: #4747f1;
+}
+.icono-tres-puntos{
     height: 1.5rem;
     width: auto;
     margin-right: -15px;
     margin-left: -5px;
 }
-.nav-barra .ea-logo-2{
+.ea-logo-2{
     height: 2rem;
     margin-right: 20px;
     margin-left: 10px;
@@ -517,13 +523,14 @@
 .impact-report img{
     width: auto;
 }
-
-
+.condiciones{
+    padding: 48px 76px 0px 350px;
+    background-color: rgb(236, 236, 236);
+}
 footer{
     height: 100%;
     width: auto;
 }
-
 .equipo-ea{
     background-color: rgb(236, 236, 236);
     display: flex;
@@ -534,8 +541,13 @@ footer{
 }
 .link{
     margin-left: 275px;
+    color: black;
 }
-
+.link a:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: #4747f1;
+}
 .equipo-ea a{
     margin-top: 8px;
     margin-bottom: 15px;
@@ -606,11 +618,12 @@ footer{
 .terminos-legales {
     display: flex;
     flex-wrap: wrap;
-
 }
 .terminos-legales a{
     margin: 16px 48px 10px 0px;
+    color: black;
 }
+
 .derechos{
     margin-top: 5px;
 }
