@@ -208,27 +208,29 @@
 
 
 footer{
-    height: auto;
-    width: 100%;
-    display: block;
+    height: 100%;
+    width: auto;
 }
 
 .equipo-ea{
     background-color: rgb(236, 236, 236);
     display: flex;
-    justify-content: center;
-    padding: 70px;
+    justify-content: space-between;
+    padding: 12px 76px 12px 76px;
     flex-direction: row;
-    text-align: center;
     align-items: center;
 }
+.link{
+    margin-left: 275px;
+}
+
 .equipo-ea a{
     margin-top: 8px;
     margin-bottom: 15px;
     margin-right: 40px;
 }
 .contacto{
-    margin-left: 70px;
+    margin-right: 355px;
 }
 .contacto img{
     height: 1.8rem;
