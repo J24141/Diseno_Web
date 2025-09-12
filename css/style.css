@@ -290,15 +290,70 @@
 .contacto img{
     height: 1.8rem;
     width: 1.8rem;
-    margin-right: 25px;
-    align-items: end;
+    margin-left: 25px;
+    text-align: left;
 }
 .contacto a{
     margin: -5px;
     align-items: end;
+    text-align: left;
+
 }
 .contacto h3{
     margin-top: 30px;
     margin-bottom: 20px;
     text-align: end;
+    margin-left: 10px;
+}
+.terminos-y-condiciones{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 93px 40px 93px;
+    margin-left: 250px;
+}
+.logo-footer img{
+    height: 3rem;
+    width: auto;
+}
+.cajon{
+    margin-left: 32px;
+}
+.links{
+    display: grid;
+    grid-auto-flow: column;
+    overflow-wrap: break-word;
+    margin-bottom: 10px;
+}
+.links-1 a{
+    margin: 16px 48px 10px 0px;
+}
+.idiomas{
+    display: grid;
+    grid-auto-flow: column;
+    overflow-wrap: break-word;
+    column-gap: 41px;
+}
+.cajon-2{
+    display: grid;
+    grid-auto-flow: column;
+    overflow-wrap: break-word;
+}
+.cajon-3{
+    display: block;
+    align-items: center;
+}
+.terminos-legales {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.terminos-legales a{
+    margin: 16px 48px 10px 0px;
+}
+.derechos{
+    margin-top: 5px;
+}
+.verificacion{
+    margin-top: 50px;
+    margin-left: 50px;
 }
