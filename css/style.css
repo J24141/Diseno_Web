@@ -40,13 +40,18 @@
     width: 100%;
     position:fixed;
 }
-.nav-barra .icono-tres-puntos{
+.nav-color a:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: #4747f1;
+}
+.icono-tres-puntos{
     height: 1.5rem;
     width: auto;
     margin-right: -15px;
     margin-left: -5px;
 }
-.nav-barra .ea-logo-2{
+.ea-logo-2{
     height: 2rem;
     margin-right: 20px;
     margin-left: 10px;
