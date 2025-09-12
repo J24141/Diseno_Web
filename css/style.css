@@ -95,12 +95,12 @@
 .juegos-destacados a:hover ::before{
     background: linear-gradient(to right, rgb(0, 0, 51) 10%, #E53935 90%);
     opacity: 0.9;
-    transition: .4s;
+    transition: .4s ease-in-out;
     cursor: pointer;
 }
 .juegos-destacados a:hover img{
     transform: translateY(-5vh);
-    transition: .4s;
+    transition: .4s ease-in-out;
 }
 .juegos-destacados p{
     width: 100%;
@@ -383,162 +383,38 @@
     transition: .1s;
 }
 
-.banner-celeste{
-    background-color: #6FB0D6;
-    width: 100%;
-    height: 13vh;
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-}
-    
-.banner-celeste .text-banner-celeste{
-    margin-left: 70px;
-    color: #1a1a1a;
-    font-size: 1.7vh;
-    width: 70%;
-    align-items: stretch;
-}
-
-.banner-celeste button{
-    background-color: #6FB0D6;
-    height: 7vh;
-    width: 9.5vw;
-    justify-content: right;
-    font-size: 2.5vh;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-right: 10vh;
-    border-radius: 5px;
-}
-
-.impact-report{
-    display: flex;
-    background-color: #101057;
-    height: 65vh;
-    justify-content: center;
-}
-
-.impact-report .info-impact-report{
-    width: 35vw;
-    margin: auto;
-    color: white;
-    justify-content: center;
-}
-
-.impact-report .info-impact-report p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-}
-
-.impact-report button{
-    background-color: #101057;
-    color: white;
-    border-radius: 5px;
-    padding: 1rem;
-    border-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.3vh;
-    margin-right: 1rem;
-}
-
-.impact-report img{
-    width: auto;
-}
 
 
-footer{
-    height: 100%;
-    width: auto;
-}
 
 .equipo-ea{
     background-color: rgb(236, 236, 236);
     display: flex;
-    justify-content: space-between;
-    padding: 12px 76px 12px 76px;
+    justify-content: center;
+    padding: 70px;
     flex-direction: row;
+    text-align: center;
     align-items: center;
 }
-.link{
-    margin-left: 275px;
-}
-
 .equipo-ea a{
     margin-top: 8px;
     margin-bottom: 15px;
     margin-right: 40px;
 }
 .contacto{
-    margin-right: 355px;
+    margin-left: 70px;
 }
 .contacto img{
     height: 1.8rem;
     width: 1.8rem;
-    margin-left: 25px;
-    text-align: left;
+    margin-right: 25px;
+    align-items: end;
 }
 .contacto a{
     margin: -5px;
     align-items: end;
-    text-align: left;
-
 }
 .contacto h3{
     margin-top: 30px;
     margin-bottom: 20px;
     text-align: end;
-    margin-left: 10px;
-}
-.terminos-y-condiciones{
-    display: flex;
-    flex-direction: row;
-    padding: 15px 93px 40px 93px;
-    margin-left: 250px;
-}
-.logo-footer img{
-    height: 3rem;
-    width: auto;
-}
-.cajon{
-    margin-left: 32px;
-}
-.links{
-    display: grid;
-    grid-auto-flow: column;
-    overflow-wrap: break-word;
-    margin-bottom: 10px;
-}
-.links-1 a{
-    margin: 16px 48px 10px 0px;
-}
-.idiomas{
-    display: grid;
-    grid-auto-flow: column;
-    overflow-wrap: break-word;
-    column-gap: 41px;
-}
-.cajon-2{
-    display: grid;
-    grid-auto-flow: column;
-    overflow-wrap: break-word;
-}
-.cajon-3{
-    display: block;
-    align-items: center;
-}
-.terminos-legales {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-.terminos-legales a{
-    margin: 16px 48px 10px 0px;
-}
-.derechos{
-    margin-top: 5px;
-}
-.verificacion{
-    margin-top: 50px;
-    margin-left: 50px;
 }
