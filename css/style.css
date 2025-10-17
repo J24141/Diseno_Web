@@ -5,6 +5,12 @@
     font-family: electronic arts display, sans-serif;
     text-decoration: none;
 }
+.navega{
+    position:fixed;
+    width: 100%;
+    z-index: 999;
+    height: 6%;
+}
 .nav-ea{
     background-color: rgb(31, 31, 31);
     height: 100%;
@@ -39,7 +45,6 @@
     align-items: center;
     height: 3rem;
     width: 100%;
-    position:fixed;
 }
 .nav-color a:hover{
     cursor: pointer;
@@ -308,6 +313,7 @@
     text-align: center;
     font-size: 6vh;
     padding-bottom: 4%;
+    font-weight: 700;
 }
 .latest-updates{
     display: grid;
@@ -320,9 +326,10 @@
     transform: translateY(-2vh);
     transition: .4s;
     cursor: pointer;
+    font-weight: 700;
 }
 .latest-updates img{
-    height: 26vh;
+    height: 32vh;
     width: auto;
 }
 .EAI{
