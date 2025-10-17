@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Header #1*/
+
+.header1 {
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+
+}
+
+.ea {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: rgb(144, 144, 144);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+/*Boton de Usuario del Header*/
+.usuario {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3vh;
+}
+
+.header1 button {
+    padding-top: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(54, 54, 54);
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.header1 button img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+/*Header #2*/
+
+.header2 {
+    background-color: black;
+    padding: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.battlefield {
+    display: flex;
+    align-items: center;
+}
+
+.barranav .nav-link,
+.barranav .navbar-nav .nav-link,
+.barranav .navbar-nav .nav-item .nav-link,
+.barranav .dropdown-item {
+  color: white !important;
+}
+
+.barranav .dropdown-menu {
+  background-color: black !important;
+  border: 1px solid gray;
+}
+
+.barranav .dropdown-item {
+  color: white !important;
+}
+
+.barranav .dropdown-item:hover {
+  background-color: rgb(27, 27, 27) !important;
+}
+
+.barranav .navbar {
+  background-color: black;
+}
+
+.barranav .nav-link {
+  color: white;
+}
+
+.barranav .nav-link:hover {
+  background-color: rgb(27, 27, 27);
+}
+
+
+.opciones {
+    display: flex;
+    padding-left: 4vh;
+    gap: 5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.header2 img {
+    width: 15vw;
+    height: auto;
+}
