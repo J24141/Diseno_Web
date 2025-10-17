@@ -1,68 +1,79 @@
 @import url(https://db.onlinewebfonts.com/c/e770a9e3ae1a8be2089472bc6391f697?family=Electronic+Arts+Display);
-*{
+
+* {
     margin: 0;
     padding: 0;
     font-family: electronic arts display, sans-serif;
     text-decoration: none;
 }
-.nav-ea{
+
+.nav-ea {
     background-color: rgb(31, 31, 31);
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: flex-end;
 }
-.nav-ea img{
+
+.nav-ea img {
     border-radius: 3%;
     color: white;
 }
 
-.user{
+.user {
     height: 1.3vw;
     width: 1.2vw;
-    padding-top: 1.5vh; 
+    padding-top: 1.5vh;
     padding-right: 3.4vh;
 }
-.ea-logo{
+
+.ea-logo {
     height: 2vw;
     width: 2.5vw;
-    padding: 0.7vh 3vh; 
+    padding: 0.7vh 3vh;
 }
-.help{
+
+.help {
     height: 2vw;
     width: auto;
-    padding: 0.7vh 3vh; 
+    padding: 0.7vh 3vh;
 }
-.nav-barra{
+
+.nav-barra {
     background-color: white;
     display: flex;
     align-items: center;
     height: 3rem;
     width: 100%;
-    position:fixed;
+    position: fixed;
 }
-.nav-color a:hover{
+
+.nav-color a:hover {
     cursor: pointer;
     transition: 0.5s;
     color: #4747f1;
 }
-.icono-tres-puntos{
+
+.icono-tres-puntos {
     height: 1.5rem;
     width: auto;
     margin-right: -15px;
     margin-left: -5px;
 }
-.ea-logo-2{
+
+.ea-logo-2 {
     height: 2rem;
     margin-right: 20px;
     margin-left: 10px;
     width: auto;
 }
-.nav-barra a{
+
+.nav-barra a {
     margin-left: 20px;
     color: black;
 }
-.about{
+
+.about {
     /*background-image: url("https://media.contentapi.ea.com/content/dam/ea/fc/fc-26/images/2025/07/fc26-eacom-hero-md-7x2-xl.jpg.adapt.crop7x2.1920w.jpg");*/
     width: 100%;
     height: 69vh;
@@ -77,6 +88,7 @@
 
 
 }
+
 .video-background {
     position: fixed;
     top: 0;
@@ -86,20 +98,22 @@
     overflow: hidden;
     z-index: -2;
 }
+
 .video-background video {
     width: 100%;
     height: 75%;
     object-fit: cover;
 }
 
-.text2{
+.text2 {
     text-align: center;
     background-color: rgb(236, 236, 236);
     font-size: 6vh;
     padding-top: 4%;
     padding-bottom: 2.5%;
 }
-.juegos-destacados{
+
+.juegos-destacados {
     display: grid;
     grid-template-rows: 0.1fr 0.1fr;
     grid-template-columns: 12rem 1fr 1fr 1fr 15rem;
@@ -108,21 +122,25 @@
     text-align: center;
     background-color: rgb(236, 236, 236);
 }
-.juegos-destacados img{
+
+.juegos-destacados img {
     height: 22vw;
     width: auto;
 }
-.juegos-destacados a:hover ::before{
+
+.juegos-destacados a:hover ::before {
     background: linear-gradient(to right, rgb(0, 0, 51) 10%, #E53935 90%);
     opacity: 0.9;
     transition: .4s;
     cursor: pointer;
 }
-.juegos-destacados a:hover img{
+
+.juegos-destacados a:hover img {
     transform: translateY(-5vh);
     transition: .4s;
 }
-.juegos-destacados p{
+
+.juegos-destacados p {
     width: 100%;
     height: auto;
     position: relative;
@@ -135,7 +153,8 @@
     transition: .4s;
     color: white;
 }
-.juegoX1{
+
+.juegoX1 {
     background-image: url("https://media.contentapi.ea.com/content/dam/gin/images/2025/08/bf6-box-art-1x1.jpg.adapt.crop1x1.767p.jpg");
     width: 100%;
     height: 46vh;
@@ -146,7 +165,8 @@
     grid-column-start: 2;
     position: relative;
 }
-.juegoX1 ::before{
+
+.juegoX1 ::before {
     content: "";
     position: absolute;
     background-color: black;
@@ -156,14 +176,16 @@
     right: 0;
     left: 0;
 }
-.juegoX1 img{
+
+.juegoX1 img {
     align-items: center;
     height: 3.5vh;
     width: auto;
     padding-top: 45%;
     position: relative;
 }
-.juegoX2{
+
+.juegoX2 {
     background-image: url("https://media.contentapi.ea.com/content/dam/gin/images/2025/07/fc-26-key-art.jpg.adapt.crop1x1.767p.jpg");
     width: 100%;
     height: 46vh;
@@ -174,7 +196,8 @@
     grid-column-start: 3;
     position: relative;
 }
-.juegoX2 ::before{
+
+.juegoX2 ::before {
     content: "";
     position: absolute;
     background-color: black;
@@ -184,14 +207,16 @@
     right: 0;
     left: 0;
 }
-.juegoX2 img{
+
+.juegoX2 img {
     align-items: center;
     height: 6vh;
     width: auto;
     padding-top: 45%;
     position: relative;
 }
-.juegoX3{
+
+.juegoX3 {
     background-image: url("https://media.contentapi.ea.com/content/dam/gin/images/2025/03/f1-25-iconic-gamebox-1x1.jpg.adapt.crop1x1.767p.jpg");
     width: 100%;
     height: 46vh;
@@ -202,7 +227,8 @@
     grid-column-start: 4;
     position: relative;
 }
-.juegoX3 ::before{
+
+.juegoX3 ::before {
     content: "";
     position: absolute;
     background-color: black;
@@ -212,14 +238,16 @@
     right: 0;
     left: 0;
 }
-.juegoX3 img{
+
+.juegoX3 img {
     align-items: center;
     height: 5vh;
     width: auto;
     padding-top: 45%;
     position: relative;
 }
-.juegoX4{
+
+.juegoX4 {
     background-image: url("https://media.contentapi.ea.com/content/dam/gin/images/2024/12/splitkeyart1x1.jpg.adapt.crop1x1.767p.jpg");
     width: 100%;
     height: 46vh;
@@ -230,7 +258,8 @@
     grid-column-start: 2;
     position: relative;
 }
-.juegoX4 ::before{
+
+.juegoX4 ::before {
     content: "";
     position: absolute;
     background-color: black;
@@ -240,14 +269,16 @@
     right: 0;
     left: 0;
 }
-.juegoX4 img{
+
+.juegoX4 img {
     align-items: center;
     height: 10vh;
     width: auto;
     padding-top: 40%;
     position: relative;
 }
-.juegoX5{
+
+.juegoX5 {
     background-image: url("https://media.contentapi.ea.com/content/dam/gin/images/2017/01/the-sims-4-keyart.jpg.adapt.crop1x1.767p.jpg");
     width: 100%;
     height: 46vh;
@@ -258,7 +289,8 @@
     grid-column-start: 3;
     position: relative;
 }
-.juegoX5 ::before{
+
+.juegoX5 ::before {
     content: "";
     position: absolute;
     background-color: black;
@@ -268,14 +300,16 @@
     right: 0;
     left: 0
 }
-.juegoX5 img{
+
+.juegoX5 img {
     align-items: center;
     height: 8vh;
     width: auto;
     padding-top: 45%;
     position: relative;
 }
-.juegoX6{
+
+.juegoX6 {
     background-image: url("https://media.contentapi.ea.com/content/dam/gin/images/2019/01/apex-legends-keyart.jpg.adapt.crop1x1.767p.jpg");
     width: 100%;
     height: 46vh;
@@ -286,7 +320,8 @@
     grid-column-start: 4;
     position: relative;
 }
-.juegoX6 ::before{
+
+.juegoX6 ::before {
     content: "";
     position: absolute;
     background-color: black;
@@ -296,50 +331,58 @@
     right: 0;
     left: 0;
 }
-.juegoX6 img{
+
+.juegoX6 img {
     align-items: center;
     height: 13vh;
     width: auto;
     padding-top: 38%;
     position: relative;
 }
-.latest-text{
+
+.latest-text {
     background-color: rgb(236, 236, 236);
     text-align: center;
     font-size: 6vh;
     padding-bottom: 4%;
 }
-.latest-updates{
+
+.latest-updates {
     display: grid;
     grid-template-columns: 14rem 1fr 1fr 1fr 14rem;
     grid-template-rows: 1fr 1fr;
     gap: 2vh;
     background-color: rgb(236, 236, 236);
 }
-.latest-updates a:hover{
+
+.latest-updates a:hover {
     transform: translateY(-2vh);
     transition: .4s;
     cursor: pointer;
 }
-.latest-updates img{
+
+.latest-updates img {
     height: 26vh;
     width: auto;
 }
-.EAI{
+
+.EAI {
     display: flex;
     position: absolute;
     justify-content: start;
     padding-left: 1%;
     color: blue;
 }
-.date{
+
+.date {
     display: flex;
     position: absolute;
     padding-left: 11%;
     color: black;
     text-decoration: none;
 }
-.text3{
+
+.text3 {
     padding-left: 5%;
     padding-top: 3%;
     color: black;
@@ -347,79 +390,91 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
 }
-.card1 h2{
+
+.card1 h2 {
     padding-top: 8%;
     padding-left: 4.5%;
     color: black;
     text-decoration: none;
 }
-.card1{
+
+.card1 {
     grid-column-start: 2;
     grid-row-start: 1;
     border: black 1px solid;
     box-shadow: black 15vh;
     background-color: white;
 }
-.card2 h2{
+
+.card2 h2 {
     padding-top: 8%;
     padding-left: 4.5%;
     color: black;
     text-decoration: none;
 }
-.card2{
+
+.card2 {
     grid-column-start: 3;
     grid-row-start: 1;
     border: black 1px solid;
     box-shadow: black 15vh;
     background-color: white;
-    
+
 }
-.card3 h2{
+
+.card3 h2 {
     padding-top: 8%;
     padding-left: 4.5%;
     color: black;
     text-decoration: none;
 }
-.card3{
+
+.card3 {
     grid-column-start: 4;
     grid-row-start: 1;
     border: black 1px solid;
     box-shadow: black 15vh;
     background-color: white;
 }
-.card4 h2{
+
+.card4 h2 {
     padding-top: 8%;
     padding-left: 4.5%;
     color: black;
     text-decoration: none;
 }
-.card4{
+
+.card4 {
     grid-column-start: 2;
     grid-row-start: 2;
     border: black 1px solid;
-    box-shadow: black 15vh;  
+    box-shadow: black 15vh;
     background-color: white;
 }
-.card5 h2{
+
+.card5 h2 {
     padding-top: 8%;
     padding-left: 4.5%;
     color: black;
     text-decoration: none;
 }
-.card5{
+
+.card5 {
     grid-column-start: 3;
     grid-row-start: 2;
     border: black 1px solid;
     box-shadow: black 15vh;
     background-color: white;
 }
-.card6 h2{
+
+.card6 h2 {
     padding-top: 8%;
     padding-left: 4.5%;
     color: black;
     text-decoration: none;
 }
-.card6{
+
+.card6 {
     grid-column-start: 4;
     grid-row-start: 2;
     border: black 1px solid;
@@ -427,7 +482,7 @@
     background-color: white;
 }
 
-.latest-games{
+.latest-games {
     background-color: rgb(236, 236, 236);
     display: flex;
     justify-content: center;
@@ -435,7 +490,8 @@
     padding-top: 2%;
     padding-bottom: 5%;
 }
-.latest-games button{
+
+.latest-games button {
     height: 8vh;
     width: 11vw;
     font-size: 2.5vh;
@@ -444,13 +500,14 @@
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
-.latest-games button:hover{
+
+.latest-games button:hover {
     cursor: pointer;
     transition: .1s;
     transform: scale(1.05);
 }
 
-.ea-play{
+.ea-play {
     background-image: url("https://media.contentapi.ea.com/content/dam/eacom/images/2024/09/eacom-ea-play-hero-md-grid-7x2-xl-en.jpg.adapt.crop7x2.1920w.jpg");
     width: 100%;
     height: 60vh;
@@ -462,33 +519,39 @@
     grid-template-columns: 12rem 1fr 1.5fr;
     grid-template-rows: 5rem 1fr 5rem;
 }
-.ea-play-text{
+
+.ea-play-text {
     grid-row-start: 2;
     grid-column-start: 2;
 }
-.ea-play-text img{
+
+.ea-play-text img {
     height: 12vh;
     width: auto;
 }
-.ea-play-text button:hover{
+
+.ea-play-text button:hover {
     cursor: pointer;
     transition: .1s;
     transform: scale(1.05);
 }
-.ea-play-text h3{
+
+.ea-play-text h3 {
     color: white;
     font-size: 1.5rem;
     padding-top: 1.5%;
     padding-bottom: 1%;
     font-family: Arial, Helvetica, sans-serif;
 }
-.ea-play-text p{
+
+.ea-play-text p {
     color: white;
     font-size: 1.15rem;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 5%;
 }
-.ea-play-text button{
+
+.ea-play-text button {
     height: 8vh;
     width: 11vw;
     background: none;
@@ -498,14 +561,15 @@
     font-size: 2.5vh;
     border-radius: 1vh;
 }
-    
-.text{
+
+.text {
     grid-row-start: 2;
     grid-column-start: 2;
     align-items: center;
     text-align: center;
 }
-.text img{
+
+.text img {
     width: 50%;
     align-items: center;
     margin-top: 6rem;
@@ -518,7 +582,7 @@
     font-family: eurostile, sans-serif;
 }*/
 
-.text p{
+.text p {
     color: white;
     text-align: center;
     font-size: 2.5rem;
@@ -527,7 +591,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.comprar{
+.text button{
     border: 0;
     text-align: center;
     align-items: center;
@@ -555,11 +619,7 @@
     color: white;
 }
 
-.text button:hover{
-    transform: scale(1);
-    transition: .1s;
-}
-.trailer :hover{
+.text button:hover {
     transform: scale(1);
     transition: .1s;
 }
@@ -578,7 +638,7 @@
     grid-template-rows: 1fr;
 }
 */
-.text-info{
+.text-info {
     grid-row-start: 1;
     grid-column-start: 2;
     align-items: center;
@@ -589,21 +649,21 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.img-info{
+.img-info {
     grid-column-start: 3;
     grid-row-start: 1;
     align-items: center;
     text-align: center;
 }
 
-.img-info img{
+.img-info img {
     height: 3vw;
     width: 9.5vw;
     padding-top: 4%;
 }
 
-.img-info button{
-    border: 0; 
+.img-info button {
+    border: 0;
     text-align: center;
     border-radius: 0.3vh;
     padding: 2.5vh 8vh;
@@ -618,12 +678,12 @@
     color: white;
 }
 
-.img-info button:hover{
+.img-info button:hover {
     transform: scale(1.05);
     transition: .1s;
 }
 
-.banner-celeste{
+.banner-celeste {
     background-color: #6FB0D6;
     width: 100%;
     height: 13vh;
@@ -631,8 +691,8 @@
     display: flex;
     justify-content: space-around;
 }
-    
-.banner-celeste .text-banner-celeste{
+
+.banner-celeste .text-banner-celeste {
     margin-left: 70px;
     color: #1a1a1a;
     font-size: 1.7vh;
@@ -640,7 +700,7 @@
     align-items: stretch;
 }
 
-.banner-celeste button{
+.banner-celeste button {
     background-color: #6FB0D6;
     height: 7vh;
     width: 9.5vw;
@@ -652,33 +712,33 @@
 
 }
 
-.banner-celeste button:hover{
+.banner-celeste button:hover {
     transform: scale(1.05);
     transition: .1s;
     cursor: pointer;
 }
 
-.impact-report{
+.impact-report {
     display: flex;
     background-color: #101057;
     height: 65vh;
     justify-content: center;
 }
 
-.impact-report .info-impact-report{
+.impact-report .info-impact-report {
     width: 35vw;
     margin: auto;
     color: white;
     justify-content: center;
 }
 
-.impact-report .info-impact-report p{
+.impact-report .info-impact-report p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
     margin-bottom: 1rem;
 }
 
-.impact-report button{
+.impact-report button {
     background-color: #101057;
     color: white;
     border-radius: 5px;
@@ -689,23 +749,27 @@
     margin-right: 1rem;
 }
 
-.impact-report button:hover{
+.impact-report button:hover {
     transform: scale(1.05);
     transition: .1s;
     cursor: pointer;
 }
-.impact-report img{
+
+.impact-report img {
     width: auto;
 }
-.condiciones{
+
+.condiciones {
     padding: 48px 76px 0px 350px;
     background-color: rgb(236, 236, 236);
 }
-footer{
+
+footer {
     height: 100%;
     width: auto;
 }
-.equipo-ea{
+
+.equipo-ea {
     background-color: rgb(236, 236, 236);
     display: flex;
     justify-content: space-between;
@@ -713,25 +777,30 @@ footer{
     flex-direction: row;
     align-items: center;
 }
-.link{
+
+.link {
     margin-left: 275px;
     color: black;
 }
-.link a:hover{
+
+.link a:hover {
     cursor: pointer;
     transition: 0.5s;
     color: #4747f1;
 }
-.equipo-ea a{
+
+.equipo-ea a {
     margin-top: 8px;
     margin-bottom: 15px;
     margin-right: 40px;
 }
-.contacto{
+
+.contacto {
     margin-right: 355px;
     padding-bottom: 30px;
 }
-.contacto img{
+
+.contacto img {
     height: 1.8rem;
     width: 1.8rem;
     margin-left: 25px;
@@ -740,126 +809,151 @@ footer{
     border-radius: 5px;
     float: left;
 }
-.contacto a{
+
+.contacto a {
     margin: -5px;
     align-items: end;
     text-align: left;
 
 }
-.contacto h3{
+
+.contacto h3 {
     margin-top: 30px;
     margin-bottom: 20px;
     text-align: end;
     margin-left: 10px;
 }
-.terminos-y-condiciones{
+
+.terminos-y-condiciones {
     display: flex;
     flex-direction: row;
     padding: 15px 93px 40px 93px;
     margin-left: 250px;
 }
-.logo-footer img{
+
+.logo-footer img {
     height: 3rem;
     width: auto;
 }
-.cajon{
+
+.cajon {
     margin-left: 32px;
 }
-.links{
+
+.links {
     display: grid;
     grid-auto-flow: column;
     overflow-wrap: break-word;
     margin-bottom: 10px;
 }
-.links-1 a{
+
+.links-1 a {
     margin: 16px 48px 10px 0px;
 }
-.idiomas{
+
+.idiomas {
     display: grid;
     grid-auto-flow: column;
     overflow-wrap: break-word;
     column-gap: 41px;
 }
-.cajon-2{
+
+.cajon-2 {
     display: grid;
     grid-auto-flow: column;
     overflow-wrap: break-word;
 }
-.cajon-3{
+
+.cajon-3 {
     display: block;
     align-items: center;
 }
+
 .terminos-legales {
     display: flex;
     flex-wrap: wrap;
 }
-.terminos-legales a{
+
+.terminos-legales a {
     margin: 16px 48px 10px 0px;
     color: black;
 }
 
-.derechos{
+.derechos {
     margin-top: 5px;
 }
-.verificacion{
+
+.verificacion {
     margin-top: 50px;
     margin-left: 50px;
 }
 
 @media (max-width: 992px) {
-  .game-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+    .game-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 768px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 70px;
-    right: 0;
-    width: 60%;
-  }
-  .menu-toggle {
-    display: block;
-  }
-  .hero h1 {
-    font-size: 2.2rem;
-  }
-  .game-grid {
-    grid-template-columns: 1fr;
-  }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 60%;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .game-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 480px) {
-  .hero h1 {
-    font-size: 1.8rem;
-  }
-  .hero p {
-    font-size: 1rem;
-  }
-  .hero-content {
-    padding: 1rem;
-  }
-  .game-card {
-    padding: 2rem;
-  }
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero-content {
+        padding: 1rem;
+    }
+
+    .game-card {
+        padding: 2rem;
+    }
 }
 
 /* --- Codigo nueva página --- */
-.nav-ea{
-    background-color: rgb(44, 44, 44);
+body.carousel {
+    background-color: rgb(6, 6, 7);
+}
+
+.nav-ea {
+    background-color: rgb(40, 45, 48);
     margin: auto;
     height: 3rem;
 }
-.nav-ea a{
+
+.nav-ea a {
     color: gray;
     text-decoration: none;
+    display: flex;
+    flex-direction: left;
 }
 
-
-.nav-ea .btnuser{
+.nav-ea .btnuser {
     padding: 1vh 1vw;
     text-align: center;
     background-color: rgb(44, 44, 44);
@@ -867,13 +961,13 @@ footer{
     border-color: white;
 }
 
-.carousel_slide{
+.carousel_slide {
     margin: 20%;
-    
+
 }
 
-.carousel_slide .carousel_inner .carousel-caption button{
-    border: 0; 
+.carousel_slide .carousel_inner .carousel-caption button {
+    border: 0;
     text-align: center;
     border-radius: 0.3vh;
     padding: 2.5vh 8vh;
@@ -882,4 +976,56 @@ footer{
     cursor: pointer;
     background-color: #1b2fe2;
     color: white;
+}
+
+footer.foot-carousel {
+    background-color: rgb(43, 49, 52);
+    color: #d1d1d1;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 25px 40px;
+    border-top: 1px solid #2f3437;
+}
+
+.footer-carousel-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+    margin: 0 0 10px 0;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-carousel-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-carousel-links a:hover {
+    color: #00adee;
+}
+
+.footer-carousel-mid {
+    border-top: 1px solid #2f3437;
+    border-bottom: 1px solid #989c9e;
+    margin: 10px 0;
+    padding: 10px 0;
+    text-transform: none;
+    color: #c8c8c8;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+
+.footer-carousel-bottom {
+    margin-top: 10px;
+    font-size: 10px;
+    color: #aaa;
+    letter-spacing: 0.12em;
 }
