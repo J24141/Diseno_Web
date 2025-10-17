@@ -769,7 +769,19 @@ footer{
 
 /* --- Codigo nueva página --- */
 .nav-ea{
-    background-color: rgb(31, 31, 31);
-    margin: 100%;
-    height: 20%;
+    background-color: rgb(44, 44, 44);
+    margin: auto;
+    height: 3rem;
+}
+.nav-ea a{
+    color: gray;
+    text-decoration: none;
+}
+
+.nav-ea .btnuser{
+    padding: auto;
+}
+
+.carousel_slide{
+    margin: 20%;
 }
