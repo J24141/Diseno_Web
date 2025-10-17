@@ -778,10 +778,28 @@ footer{
     text-decoration: none;
 }
 
+
 .nav-ea .btnuser{
-    padding: auto;
+    padding: 1vh 1vw;
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    border-color: white;
 }
 
 .carousel_slide{
     margin: 20%;
+    
+}
+
+.carousel_slide .carousel_inner .carousel-caption button{
+    border: 0; 
+    text-align: center;
+    border-radius: 0.3vh;
+    padding: 2.5vh 8vh;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    background-color: #1b2fe2;
+    color: white;
 }
