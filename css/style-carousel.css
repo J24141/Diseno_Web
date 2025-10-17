@@ -1,11 +1,16 @@
 html, body {
-  height: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /* --- Barra navegación --- */
 
 body.carousel {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(6, 6, 7);
+    min-height: 100vh;
 }
 
 .nav-ea {
@@ -58,15 +63,31 @@ body.carousel {
   min-height: 100vh;
 }
 
+main.main-carousel{
+    flex: 1;
+    background-color: #050505;
+    padding: 0;
+    margin: 0;
+}
+
 .main-carousel {
   background-color: #050505;
-  padding: 60px 0;
+  padding: 0;
 }
 
 .carousel_slide {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+}
+
+.carousel-slide .carousel{
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    background: none;
 }
 
 .carousel_slide #carouselExampleCaptions {
@@ -80,9 +101,10 @@ body.carousel {
 }
 
 .carousel_slide img {
-  border-radius: 4px;
-  max-height: 250px;
-  object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 0;
 }
 
 .carousel_slide h5 {
@@ -114,11 +136,31 @@ body.carousel {
   background-color: #0026a3;
 }
 
-/* --- Footer ---*/
-
-footer.foot-carousel {
-  margin-top: auto;
+.carousel-item {
+    position: relative;
 }
+
+.btn-carousel {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 25px;
+    background-color: #1b2fe2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-carousel:hover {
+    background-color: #0026a3;
+}
+
+
+/* --- Footer ---*/
 
 footer.foot-carousel {
     background-color: rgb(43, 49, 52);
@@ -129,6 +171,7 @@ footer.foot-carousel {
     letter-spacing: 0.08em;
     padding: 25px 40px;
     border-top: 1px solid #2f3437;
+    margin-top: 0;
 }
 
 .footer-carousel-links {
