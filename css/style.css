@@ -829,16 +829,21 @@ footer{
 }
 
 /* --- Codigo nueva página --- */
+body.carousel{
+    background-color: rgb(6, 6, 7);
+}
+
 .nav-ea{
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(40, 45, 48);
     margin: auto;
     height: 3rem;
 }
 .nav-ea a{
     color: gray;
     text-decoration: none;
+    display: flex;
+    flex-direction: left;
 }
-
 
 .nav-ea .btnuser{
     padding: 1vh 1vw;
@@ -863,4 +868,8 @@ footer{
     cursor: pointer;
     background-color: #1b2fe2;
     color: white;
+}
+
+footer.foot-carousel{
+    background-color: rgb(43, 49, 52)
 }
