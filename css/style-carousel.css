@@ -1,4 +1,9 @@
-/* --- Codigo nueva página --- */
+html, body {
+  height: 100%;
+}
+
+/* --- Barra navegación --- */
+
 body.carousel {
     background-color: rgb(6, 6, 7);
 }
@@ -45,21 +50,74 @@ body.carousel {
   height: 20px;
 }
 
-.carousel_slide {
-    margin: 20%;
+/* --- Carrousel ---*/
 
+body.carousel {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-.carousel_slide .carousel_inner .carousel-caption button {
-    border: 0;
-    text-align: center;
-    border-radius: 0.3vh;
-    padding: 2.5vh 8vh;
-    position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
-    cursor: pointer;
-    background-color: #1b2fe2;
-    color: white;
+.main-carousel {
+  background-color: #050505;
+  padding: 60px 0;
+}
+
+.carousel_slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel_slide #carouselExampleCaptions {
+  background-color: #1c2225; 
+  width: 500px;
+  max-width: 90%;
+  border: 1px solid #2f3437;
+  padding: 30px 40px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.carousel_slide img {
+  border-radius: 4px;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.carousel_slide h5 {
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.carousel_slide p {
+  font-size: 13px;
+  color: #c8c8c8;
+}
+
+.carousel_slide .carousel-caption button {
+  border: 0;
+  text-align: center;
+  border-radius: 4px;
+  padding: 10px 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  background-color: #1b2fe2;
+  color: white;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+.carousel_slide .carousel-caption button:hover {
+  background-color: #0026a3;
+}
+
+/* --- Footer ---*/
+
+footer.foot-carousel {
+  margin-top: auto;
 }
 
 footer.foot-carousel {
