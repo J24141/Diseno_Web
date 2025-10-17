@@ -322,7 +322,7 @@
     background-color: rgb(236, 236, 236);
 }
 .latest-updates a:hover{
-    transform: translateY(-10vh);
+    transform: translateY(-10px);
     transition: .4s;
     cursor: pointer;
     position: static;
@@ -332,19 +332,23 @@
     height: 32vh;
     width: auto;
 }
-.EAI{
+.EAIS{
     display: flex;
-    position: absolute;
+    flex-direction: row;
+}
+.EAI{
+    position: static;
     justify-content: start;
-    padding-left: 1%;
+    padding-left: 5%;
     color: blue;
+    transform: none;
 }
 .date{
-    display: flex;
-    position: absolute;
-    padding-left: 11%;
+    position: static;
+    padding-left: 30px;
     color: black;
     text-decoration: none;
+    transform: none;
 }
 .text3{
     padding-left: 5%;
@@ -547,6 +551,8 @@
     cursor: pointer;
     color: white;
     margin-right: 2rem;
+    transition: .1s;
+    transform: scale(1.05);
 }
 .trailer{
     border: 0;
@@ -561,6 +567,8 @@
     cursor: pointer;
     margin-right: 2rem;
     color: white;
+    transition: .1s;
+    transform: scale(1.05);
 }
 
 .text button:hover{
@@ -632,17 +640,16 @@
 }
 .botonleer{
     align-items: center;
-    justify-content: space-between;
     grid-column-start: 3;
     grid-row-start: 3;
-    padding-left: 9.5rem;
+    padding-left: 8.5rem;
+    transition: .1s;
+    transform: scale(1.05);
 }
 .leermas{
-    border: 0; 
     text-align: center;
     border-radius: 0.3vh;
     padding: 1.8vh 4vh;
-    position: absolute;
     margin-top: 3.5vh;
     margin-left: 3vh;
     margin-right: 6vh;
@@ -652,6 +659,12 @@
     background: transparent;
     color: rgb(0, 0, 0);
     border: 2px solid black;
+    transition: .1s;
+    transform: scale(1.05);
+}
+.botonleer button:hover{
+    transform: scale(1);
+    transition: .1s;
 }
 
 .banner-celeste{
@@ -835,4 +848,116 @@ footer{
 .verificacion{
     margin-top: 50px;
     margin-left: 50px;
+}
+
+@media (max-width: 1024px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .hero {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .hero img, .hero video {
+    width: 100%;
+    height: auto;
+  }
+
+  .featured-games {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .featured-games img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .latest-updates {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 10px;
+  }
+
+  .logo img {
+    width: 120px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 30px 15px;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .featured-games {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  .featured-games img {
+    height: 35vh;
+  }
+
+  .latest-updates {
+    grid-template-columns: 1fr;
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .latest-updates img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    gap: 10px;
+  }
 }
