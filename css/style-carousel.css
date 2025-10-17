@@ -1,4 +1,9 @@
+html, body {
+  height: 100%;
+}
+
 /* --- Barra navegación --- */
+
 body.carousel {
     background-color: rgb(6, 6, 7);
 }
@@ -47,12 +52,21 @@ body.carousel {
 
 /* --- Carrousel ---*/
 
+body.carousel {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-carousel {
+  background-color: #050505;
+  padding: 60px 0;
+}
+
 .carousel_slide {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh; 
-  background-color: #050505;
 }
 
 .carousel_slide #carouselExampleCaptions {
@@ -101,6 +115,10 @@ body.carousel {
 }
 
 /* --- Footer ---*/
+
+footer.foot-carousel {
+  margin-top: auto;
+}
 
 footer.foot-carousel {
     background-color: rgb(43, 49, 52);
