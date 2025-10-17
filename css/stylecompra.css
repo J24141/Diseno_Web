@@ -135,7 +135,7 @@ body{
     padding: 7% 5%;
     color: white;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 20rem;
 }
 
 .compra h1{
@@ -158,10 +158,45 @@ body{
 
 .apartado{
     grid-column-start: 2;
-    padding: 16%;
+    padding-top: 4.3vw;
 }
 
 .apartado img{
-    width: 22rem;
+    max-width: 100%;
     height: auto;
+}
+
+.apartado .juego{
+    margin-top: 10px;
+    max-width: 100%;
+    font-size: small;
+    width: 15vh;
+    height: 5vh;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(81, 81, 96);
+    box-shadow: none;
+    border: none;
+    cursor: default;
+}
+
+.apartado p{
+    padding-top: 2vw;
+    max-width: 100%;
+    font-size: small;
+    margin-bottom: 0;
+}
+
+.apartado .añadir{
+    margin-top: 10px;
+    max-width: 100%;
+    font-size: small;
+    width: 15vw;
+    height: 5vh;
+    border-radius: 5px;
+    color: white;
+    background-color: orangered;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
 }
