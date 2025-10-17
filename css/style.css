@@ -822,6 +822,7 @@ footer{
     cursor: pointer;
     background-color: #1b2fe2;
     color: white;
+}
 @media (max-width: 992px) {
   .game-grid {
     grid-template-columns: repeat(2, 1fr);
