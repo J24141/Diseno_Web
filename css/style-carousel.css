@@ -74,7 +74,6 @@ footer.foot-carousel {
 }
 
 .footer-carousel-links {
-    list-style: none;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
