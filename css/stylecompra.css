@@ -134,14 +134,34 @@ body{
 .compra{
     padding: 7% 5%;
     color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .compra h1{
     font-size: 30px;
 }
 
-.compra img{
+.compra .enunciado img{
     width: 60rem;
     height: auto;
     padding-top: 20px;
+}
+
+.compra p{
+    padding-top: 20px;
+    width: 60rem;
+    text-align: justify;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.apartado{
+    grid-column-start: 2;
+    padding: 16%;
+}
+
+.apartado img{
+    width: 22rem;
+    height: auto;
 }
