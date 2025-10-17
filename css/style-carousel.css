@@ -6,6 +6,8 @@ html, body {
 
 body.carousel {
     background-color: rgb(6, 6, 7);
+    padding: 0;
+    margin: 0;
 }
 
 .nav-ea {
@@ -60,13 +62,22 @@ body.carousel {
 
 .main-carousel {
   background-color: #050505;
-  padding: 60px 0;
+  padding: 0;
 }
 
 .carousel_slide {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+}
+
+.carousel-slide .carousel{
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    background: none;
 }
 
 .carousel_slide #carouselExampleCaptions {
@@ -113,6 +124,30 @@ body.carousel {
 .carousel_slide .carousel-caption button:hover {
   background-color: #0026a3;
 }
+
+.carousel-item {
+    position: relative;
+}
+
+.btn-carousel {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 25px;
+    background-color: #1b2fe2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-carousel:hover {
+    background-color: #0026a3;
+}
+
 
 /* --- Footer ---*/
 
