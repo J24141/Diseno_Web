@@ -313,20 +313,20 @@
     text-align: center;
     font-size: 6vh;
     padding-bottom: 4%;
-    font-weight: 700;
 }
 .latest-updates{
     display: grid;
-    grid-template-columns: 14rem 1fr 1fr 1fr 14rem;
+    grid-template-columns: 6rem 1fr 1fr 1fr 14rem;
     grid-template-rows: 1fr 1fr 8rem;
     gap: 2vh;
     background-color: rgb(236, 236, 236);
 }
 .latest-updates a:hover{
-    transform: translateY(-2vh);
+    transform: translateY(-10vh);
     transition: .4s;
     cursor: pointer;
-    font-weight: 700;
+    position: static;
+    box-shadow: 0 50px 80px rgba(0, 0, 0, 0.5);
 }
 .latest-updates img{
     height: 32vh;
@@ -353,6 +353,7 @@
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
+    margin-bottom: 50px;
 }
 .card1 h2{
     padding-top: 8%;
@@ -634,7 +635,7 @@
     justify-content: space-between;
     grid-column-start: 3;
     grid-row-start: 3;
-    padding-left: 5rem;
+    padding-left: 9.5rem;
 }
 .leermas{
     border: 0; 
