@@ -65,7 +65,7 @@
 .about{
     /*background-image: url("https://media.contentapi.ea.com/content/dam/ea/fc/fc-26/images/2025/07/fc26-eacom-hero-md-7x2-xl.jpg.adapt.crop7x2.1920w.jpg");*/
     width: 100%;
-    height: 60vh;
+    height: 69vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -84,11 +84,11 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-    z-index: -1;
+    z-index: -2;
 }
 .video-background video {
     width: 100%;
-    height: 70%;
+    height: 75%;
     object-fit: cover;
 }
 
@@ -508,7 +508,7 @@
 .text img{
     width: 50%;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
 
 /*.text h1{
@@ -522,25 +522,44 @@
     color: white;
     text-align: center;
     font-size: 2.5rem;
-    padding-top: 4%;
-    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-bottom: 2%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.text button{
+.comprar{
     border: 0;
     text-align: center;
     align-items: center;
     border-radius: 3px;
     background-color: #2962ff;
     font-size: 1rem;
-    padding: 3vh 4vh;
+    padding: 1.5vh 2.5vh;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
+    color: white;
+    margin-right: 2rem;
+}
+.trailer{
+    border: 0;
+    text-align: center;
+    align-items: center;
+    border-radius: 3px;
+    background: transparent;
+    border: 2px solid white;
+    font-size: 1rem;
+    padding: 1.5vh 2.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin-right: 2rem;
     color: white;
 }
 
 .text button:hover{
+    transform: scale(1);
+    transition: .1s;
+}
+.trailer :hover{
     transform: scale(1);
     transition: .1s;
 }
