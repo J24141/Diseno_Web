@@ -4,24 +4,45 @@ body.carousel {
 }
 
 .nav-ea {
-    background-color: rgb(40, 45, 48);
-    margin: auto;
-    height: 3rem;
+  background-color: #2f2f2f; 
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+  border-bottom: 2px solid #0a0a0a; 
 }
 
-.nav-ea a {
-    color: gray;
-    text-decoration: none;
-    display: flex;
-    flex-direction: left;
+.Banner_compra {
+  color: #d1d1d1;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.5px;
 }
 
-.nav-ea .btnuser {
-    padding: 1vh 1vw;
-    text-align: center;
-    background-color: rgb(44, 44, 44);
-    color: white;
-    border-color: white;
+.Banner_compra:hover {
+  color: #ffffff;
+}
+
+.btnuser {
+  background-color: transparent;
+  border: 1px solid #9e9e9e;
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 5px 7px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btnuser:hover {
+  border-color: #ffffff;
+  color: #00adee; 
+}
+
+.btnuser svg {
+  width: 20px;
+  height: 20px;
 }
 
 .carousel_slide {
