@@ -124,9 +124,28 @@
                 $279,999
             </h2>
 
-            <button class="añadir">CANTIDAD PARA AÑADIR</button>
+            <div class="acciones">
+                <button class="añadir" onclick="mostrarAlerta()" id="alertar">AÑADIR AL CARRITO</button>
+                <img src="./Archivos/IMG/carrito.png" alt="" class="carrito">
+                <div class="btns">
+                    <button onclick="disminuir()">-</button>
+                    <p id="aumento"></p>
+                    <button onclick="aumentar()">+</button>
+                </div>
+            </div>
+
+            <div class="texto1">
+                <p>
+                    Vas a comprar una licencia para acceder a este contenido digital según el Acuerdo de usuario de EA.
+                    Sujeto a Claúsulas legales y Condiciones de venta.
+                </p>
+            </div>
+
+
         </div>
     </section>
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
