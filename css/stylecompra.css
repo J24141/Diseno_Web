@@ -3,6 +3,15 @@
     padding: 0;
 }
 
+body{
+    background-image: url("https://www.ea.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FBF6_BaseBG.3b6ebe76.png&w=2560&q=80");
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 /*Header #1*/
 
 .header1 {
@@ -20,10 +29,10 @@
     gap: 15px;
     color: rgb(144, 144, 144);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
+    font-size: medium;
 }
 
-/*Boton de Usuario del Header*/
+/*Boton de Usuario del Header1*/
 .usuario {
     display: flex;
     justify-content: flex-end;
@@ -118,4 +127,76 @@
 .comprar button{
     background-color: orangered;
     padding: 5px 20px 5px 20px;
+}
+
+/*Comprar*/
+
+.compra{
+    padding: 7% 5%;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 20rem;
+}
+
+.compra h1{
+    font-size: 30px;
+}
+
+.compra .enunciado img{
+    width: 60rem;
+    height: auto;
+    padding-top: 20px;
+}
+
+.compra p{
+    padding-top: 20px;
+    width: 60rem;
+    text-align: justify;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.apartado{
+    grid-column-start: 2;
+    padding-top: 4.3vw;
+}
+
+.apartado img{
+    max-width: 100%;
+    height: auto;
+}
+
+.apartado .juego{
+    margin-top: 10px;
+    max-width: 100%;
+    font-size: small;
+    width: 15vh;
+    height: 5vh;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(81, 81, 96);
+    box-shadow: none;
+    border: none;
+    cursor: default;
+}
+
+.apartado p{
+    padding-top: 2vw;
+    max-width: 100%;
+    font-size: small;
+    margin-bottom: 0;
+}
+
+.apartado .añadir{
+    margin-top: 10px;
+    max-width: 100%;
+    font-size: small;
+    width: 15vw;
+    height: 5vh;
+    border-radius: 5px;
+    color: white;
+    background-color: orangered;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
 }
