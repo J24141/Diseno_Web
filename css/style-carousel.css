@@ -1,0 +1,208 @@
+html, body {
+  height: 100%;
+}
+
+/* --- Barra navegación --- */
+
+body.carousel {
+    background-color: rgb(6, 6, 7);
+    padding: 0;
+    margin: 0;
+}
+
+.nav-ea {
+  background-color: #2f2f2f; 
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 25px;
+  border-bottom: 2px solid #0a0a0a; 
+}
+
+.Banner_compra {
+  color: #d1d1d1;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.Banner_compra:hover {
+  color: #ffffff;
+}
+
+.btnuser {
+  background-color: transparent;
+  border: 1px solid #9e9e9e;
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 5px 7px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btnuser:hover {
+  border-color: #ffffff;
+  color: #00adee; 
+}
+
+.btnuser svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* --- Carrousel ---*/
+
+body.carousel {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-carousel {
+  background-color: #050505;
+  padding: 0;
+}
+
+.carousel_slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.carousel-slide .carousel{
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    background: none;
+}
+
+.carousel_slide #carouselExampleCaptions {
+  background-color: #1c2225; 
+  width: 500px;
+  max-width: 90%;
+  border: 1px solid #2f3437;
+  padding: 30px 40px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.carousel_slide img {
+  border-radius: 4px;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.carousel_slide h5 {
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.carousel_slide p {
+  font-size: 13px;
+  color: #c8c8c8;
+}
+
+.carousel_slide .carousel-caption button {
+  border: 0;
+  text-align: center;
+  border-radius: 4px;
+  padding: 10px 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  background-color: #1b2fe2;
+  color: white;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+.carousel_slide .carousel-caption button:hover {
+  background-color: #0026a3;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.btn-carousel {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 0;
+    border-radius: 4px;
+    padding: 10px 25px;
+    background-color: #1b2fe2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-carousel:hover {
+    background-color: #0026a3;
+}
+
+
+/* --- Footer ---*/
+
+footer.foot-carousel {
+  margin-top: auto;
+}
+
+footer.foot-carousel {
+    background-color: rgb(43, 49, 52);
+    color: #d1d1d1;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 25px 40px;
+    border-top: 1px solid #2f3437;
+}
+
+.footer-carousel-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+    margin: 0 0 10px 0;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-carousel-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.footer-carousel-links a:hover {
+    color: #00adee;
+}
+
+.footer-carousel-mid {
+    border-top: 1px solid #2f3437;
+    border-bottom: 1px solid #989c9e;
+    margin: 10px 0;
+    padding: 10px 0;
+    text-transform: none;
+    color: #c8c8c8;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+
+.footer-carousel-bottom {
+    margin-top: 10px;
+    font-size: 10px;
+    color: #aaa;
+    letter-spacing: 0.12em;
+}

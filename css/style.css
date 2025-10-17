@@ -65,7 +65,7 @@
 .about{
     /*background-image: url("https://media.contentapi.ea.com/content/dam/ea/fc/fc-26/images/2025/07/fc26-eacom-hero-md-7x2-xl.jpg.adapt.crop7x2.1920w.jpg");*/
     width: 100%;
-    height: 60vh;
+    height: 68vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: center;
@@ -84,11 +84,11 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-    z-index: -1;
+    z-index: -2;
 }
 .video-background video {
     width: 100%;
-    height: 70%;
+    height: 75%;
     object-fit: cover;
 }
 
@@ -312,7 +312,7 @@
 .latest-updates{
     display: grid;
     grid-template-columns: 14rem 1fr 1fr 1fr 14rem;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 8rem;
     gap: 2vh;
     background-color: rgb(236, 236, 236);
 }
@@ -508,7 +508,7 @@
 .text img{
     width: 50%;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
 
 /*.text h1{
@@ -522,25 +522,44 @@
     color: white;
     text-align: center;
     font-size: 2.5rem;
-    padding-top: 4%;
-    padding-bottom: 3%;
+    padding-top: 3%;
+    padding-bottom: 2%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.text button{
+.comprar{
     border: 0;
     text-align: center;
     align-items: center;
     border-radius: 3px;
     background-color: #2962ff;
     font-size: 1rem;
-    padding: 3vh 4vh;
+    padding: 1.5vh 2.5vh;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer;
+    color: white;
+    margin-right: 2rem;
+}
+.trailer{
+    border: 0;
+    text-align: center;
+    align-items: center;
+    border-radius: 3px;
+    background: transparent;
+    border: 2px solid white;
+    font-size: 1rem;
+    padding: 1.5vh 2.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin-right: 2rem;
     color: white;
 }
 
 .text button:hover{
+    transform: scale(1);
+    transition: .1s;
+}
+.trailer :hover{
     transform: scale(1);
     transition: .1s;
 }
@@ -602,6 +621,29 @@
 .img-info button:hover{
     transform: scale(1.05);
     transition: .1s;
+}
+.botonleer{
+    align-items: center;
+    justify-content: space-between;
+    grid-column-start: 3;
+    grid-row-start: 3;
+    padding-left: 5rem;
+}
+.leermas{
+    border: 0; 
+    text-align: center;
+    border-radius: 0.3vh;
+    padding: 1.8vh 4vh;
+    position: absolute;
+    margin-top: 3.5vh;
+    margin-left: 3vh;
+    margin-right: 6vh;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
 }
 
 .banner-celeste{
@@ -785,82 +827,4 @@ footer{
 .verificacion{
     margin-top: 50px;
     margin-left: 50px;
-}
-
-@media (max-width: 992px) {
-  .game-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (max-width: 768px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    position: absolute;
-    top: 70px;
-    right: 0;
-    width: 60%;
-  }
-  .menu-toggle {
-    display: block;
-  }
-  .hero h1 {
-    font-size: 2.2rem;
-  }
-  .game-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 480px) {
-  .hero h1 {
-    font-size: 1.8rem;
-  }
-  .hero p {
-    font-size: 1rem;
-  }
-  .hero-content {
-    padding: 1rem;
-  }
-  .game-card {
-    padding: 2rem;
-  }
-}
-
-/* --- Codigo nueva página --- */
-.nav-ea{
-    background-color: rgb(44, 44, 44);
-    margin: auto;
-    height: 3rem;
-}
-.nav-ea a{
-    color: gray;
-    text-decoration: none;
-}
-
-
-.nav-ea .btnuser{
-    padding: 1vh 1vw;
-    text-align: center;
-    background-color: rgb(44, 44, 44);
-    color: white;
-    border-color: white;
-}
-
-.carousel_slide{
-    margin: 20%;
-    
-}
-
-.carousel_slide .carousel_inner .carousel-caption button{
-    border: 0; 
-    text-align: center;
-    border-radius: 0.3vh;
-    padding: 2.5vh 8vh;
-    position: absolute;
-    font-family: Arial, Helvetica, sans-serif;
-    cursor: pointer;
-    background-color: #1b2fe2;
-    color: white;
 }
